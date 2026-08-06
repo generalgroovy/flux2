@@ -25,11 +25,11 @@ even when design documentation already exists.
   - [x] [Player loop](#player-loop)
   - [x] [Reference principles and originality boundary](#reference-principles-and-originality-boundary)
   - [x] [Visual and audio identity](#visual-and-audio-identity)
-- [ ] **Chapter 2 — [The Sanctum](#the-sanctum)** — data/visual foundation
+- [ ] **Chapter 2 — [The Wellspring](#the-wellspring)** — data/visual foundation
   complete; authored multi-layer runtime map in progress
   - [x] Nine combined districts and three-layer layout contract
   - [x] Validated attunement-node and fail-closed fast-travel rules
-  - [x] Playable schematic mechanics court (not accepted Sanctum art/topology)
+  - [x] Playable schematic mechanics court (not accepted Wellspring art/topology)
   - [ ] Authored Nexus-to-Conservatory world slice matching the approved scale,
     dense-edge/clear-lane composition, district landmarks, and pixel direction
   - [ ] Offline-complete stations plus privacy-safe friends/presence, simple
@@ -88,7 +88,7 @@ even when design documentation already exists.
 - [ ] **Chapter 8 — [Modes and networking](#modes-networking-and-progression)**
   - [x] Host-authority, protocol, prediction, reconnect, spectator, and
     host-migration contracts
-  - [ ] Living Sanctum friend presence/join and host administration before other
+  - [ ] Living Wellspring friend presence/join and host administration before other
     modes; ENet host/join vertical slice, duel/team/objective PvP, cooperative PvE,
     PvPvE extraction/convergence, roguelike dungeons, lane/stronghold modes,
     battle royale, bots, and measured scale beyond eight players
@@ -98,14 +98,14 @@ even when design documentation already exists.
 - [x] Focused reversible checkpoints A–E remain playable and published
   - [x] Checkpoint F1 establishes chemistry storage/worldbone/reset safety
   - [x] Checkpoint G1 adds persisted controls and configurable POV
-  - [ ] G2 begins the Living Sanctum V1 track: authored world, body/jump,
+  - [ ] G2 begins the Living Wellspring V1 track: authored world, body/jump,
     reactions/interactions, first ancestry/champion/spells, friends/host tools,
     then Garuda Sway/Windows acceptance before other modes
 
 The complete gate order, slice boundaries, current status, and definition of a
 working checkpoint live in the [FLUX 2 overhaul implementation plan](docs/OVERHAUL-PLAN.md).
 
-![Expanded Sanctum visual direction](assets/concept/sanctum-hub-visual-direction-v1.png)
+![Expanded Wellspring visual direction](assets/concept/sanctum-hub-visual-direction-v1.png)
 
 The image above is an original visual target, not collision geometry or a final
 tile set. Its palette, district scale, magical-travel language, layered island
@@ -124,7 +124,7 @@ compatible documented license.
 | Titanfall/Apex family | Movement routes, momentum conversion, readable traversal objects, independent aim, squad legibility | A stamina-bounded universal movement grammar in authored top-down elevation lanes; champion mobility never bypasses collision or the global speed ceiling |
 | Super Smash Bros. Melee | Commitment, recovery, precise landing timing, momentum expression, bounded launch influence | Top-down landing cuts, wavedash geometry, readable startup/active/recovery phases, and future collision-safe impact influence—without copying characters, stages, move data, or control layout |
 | Classic handheld Zelda games | A top-down jump reads instantly through compact body lift, a grounded shadow, apex, and crisp landing | An original authoritative elevation arc and original body/shadow presentation; no copied sprite, frame, timing, sound, map, input, or item behavior |
-| Hades / Hades II | Strong room silhouettes, layered depth, dramatic landmarks, dense scenic edges, responsive ambience, and clear combat floors | Original pixel-perspective Sanctum districts with FLUX materials, architecture, palette ramps, props, routes, lighting, UI, and interaction grammar; no copied rooms, assets, camera metrics, palette, symbols, or trade dress |
+| Hades / Hades II | Strong room silhouettes, layered depth, dramatic landmarks, dense scenic edges, responsive ambience, and clear combat floors | Original pixel-perspective Wellspring districts with FLUX materials, architecture, palette ramps, props, routes, lighting, UI, and interaction grammar; no copied rooms, assets, camera metrics, palette, symbols, or trade dress |
 | Noita | Materials and spells producing systemic consequences | A deterministic, host-authoritative, bounded 2.5D chemistry grid with reset groups, work budgets, explicit ownership, and immutable worldbone |
 | Magicka | Element composition as a learnable casting language | Versioned Flux Formulas made from approved source, geometry, operation, and catalyst components; competitive recipes are hashed content, not arbitrary unvalidated packets |
 | League of Legends | Skillshot clarity, role composition, cooldown/resource decisions, objective pressure | Shape-first aimed abilities, loadout roles, contestable terrain, and modular objective rules without copying champions, abilities, map topology, terminology, or presentation |
@@ -169,7 +169,7 @@ social, or experimental modes.
 
 ## Player loop
 
-The Sanctum is the persistent starting, training, social, and configuration
+The Wellspring is the persistent starting, training, social, and configuration
 space. A player learns or tunes a build there, joins a hosted session or chooses
 an expedition, enters a resettable arena, then returns with mastery, records,
 cosmetic expression, and newly attuned destinations—not power that invalidates
@@ -189,7 +189,7 @@ Aim, collision, damage, cooldowns, reaction ownership, and material mutations
 belong to the deterministic simulation; animation, particles, camera, and audio
 present confirmed outcomes.
 
-## The Sanctum
+## The Wellspring
 
 The hub is a vast magical academy-fortress spread across a central island,
 satellite terraces, rooftop routes, an undercroft, suspended gardens, and
@@ -216,12 +216,12 @@ Local movement remains rewarding, but distance is never busywork. The central
 fountain and district shrines form a diegetic fast-travel network. A shrine must
 be discovered and attuned once; unlocked destinations can then be selected from
 any safe shrine. Combat, scripted trials, and invalid destinations fail closed.
-See [the Sanctum contract](docs/SANCTUM-HUB.md) and its versioned
-[map definition](content/maps/sanctum_hub_v1.json).
+See [the Wellspring contract](docs/WELLSPRING-HUB.md) and its versioned
+[map definition](content/maps/wellspring_hub_v2.json).
 
-### Living Sanctum V1 — first acceptance test
+### Living Wellspring V1 — first acceptance test
 
-The first accepted product is the Sanctum itself, not an isolated duel or
+The first accepted product is the Wellspring itself, not an isolated duel or
 chemistry demo. It must feel spacious, charming, inhabited, and coherent while
 serving as the fully functional application shell. Nexus, movement, chemistry,
 social/muster, champion/loadout, archive/guide, settings, recovery, and service
@@ -231,7 +231,7 @@ rewarding advanced routes, environmental responses, and fast travel.
 Offline users can arrive, onboard, configure, train, inspect builds/guide,
 interact, reset laboratories, traverse, save, and quit without a service. When
 connected, the muster/friends surface shows privacy-safe presence such as
-offline, online, away, in Sanctum/activity, joinable, invite-only, full, or
+offline, online, away, in Wellspring/activity, joinable, invite-only, full, or
 incompatible, with a clear reason when joining is unavailable. Direct/LAN and
 validated invite joining remain primary; any directory, signalling, or relay is
 replaceable and self-hostable.
@@ -253,7 +253,7 @@ revealed by silhouettes, labels, shadows, effects, audio markers, or debug UI.
 Acceptance is co-equal on Garuda Linux with Sway and supported Windows: source
 and packaged launch, input/window/audio behavior, saves, networking, reconnect,
 performance, accessibility, cleanup, and uninstall/rollback evidence. See the
-[Living Sanctum V1 acceptance contract](docs/SANCTUM-V1-ACCEPTANCE.md).
+[Living Wellspring V1 acceptance contract](docs/SANCTUM-V1-ACCEPTANCE.md).
 
 ## Movement and traversal
 
@@ -539,42 +539,1009 @@ an explicitly tested large-body class.
 
 ### Existing character design roster
 
-The following FLUX designs are migration inputs, not automatically selectable
-Flux2 content. “Void” is an unresolved older label and must be explicitly mapped
-to Dark, Chaos, or a separately approved family before affected champions can
-enter the runtime.
+<!-- BEGIN CHARACTER_ROSTER_V1 -->
 
-| Champion | Ancestry | Draft affinities | Intended identity |
-| --- | --- | --- | --- |
-| Oh Tipi | Seakin | Water, Ice, Charge | Conductive-field skirmisher and current rider |
-| S. Wayne | Hobbit | Dark, Light | Eclipse-boundary tactician and decoy router |
-| The Red Baron | Undead | Void, Fire, Ice | Airborne formation controller with punishable landings |
-| Steezo | Goblin | Fire, Charge, Light | Volatile construct engineer and detonation sequencer |
-| Treevor the Mason | Treefolk | Earth, Wind, Fire | Terrain mason creating routes, cover, and fire liabilities |
-| Oll' I | Werewolf | Earth, Fire, Light | Forward structural breaker with high commitment |
-| Fluup | Orc | Charge, Wind, Ice | Storm bruiser converting committed landings |
-| Wa Bidi | Goblin | Charge, Wind, Fire | Fast battlecry route specialist with visible/audio cues |
-| Grace Reava | Sylph | Wind, Water, Light | Luminous-current aerial duelist |
-| Nico Lai | Gnome | Charge, Light | Precision shared-device engineer |
-| Spai Si | Demon | Wind, Light, Earth | Redirect duelist converting hostile intent into angles |
-| Leaf the Hidden | Treefolk | Water, Earth, Light | Concealed grove support and planned-route grower |
-| Ha Rekt | Wyrmborn | Ice, Wind, Fire | Aerial cold-line hunter with marked escape routes |
-| Dr. Apex | Stoneborn | Earth, Light, Water | Armored combat medic with contestable support zones |
-| Haara | Nymph | Light, Wind, Spirit | Bloom planner with flexible resource routing |
-| Hesus Christo | Elf | Earth, Water | Tall renewal vanguard rebuilding broken routes |
-| Grimm Bow | Troll | Void, Earth, Water | Terrain archer converting displacement into precision, never bonus damage |
-| Biggy Bob | Dwarf | Earth, Fire, Light | Forge-line breacher and masonry specialist |
-| Jan Wicked | Human | Ice, Dark, Charge | Black-ice circuit hunter |
-| Ba Djoh | Minotaur | Earth, Fire, Water | Three-current charge breaker |
-| Urzh | Stoneborn | Earth, Fire, Charge | Conductive kiln bulwark and lane anchor |
-| Donnok | Dwarf | Earth, Fire, Water | Forge-rhythm terrain shaper |
-| Djonah Thaan | Vampire | Dark, Charge, Fire | Grave-current pursuit controller |
-| Unnamed Angel | Angel | Wind, Light, Spirit | Visual placeholder only; identity, lore, and kit unapproved |
+The 24 entries below are the current migration roster: 23 named designs
+and one deliberately unapproved Angel slot. **Ancestry** is the current
+term for race. The supplied FLUX Champions sheet below is the minimum
+accepted visual baseline for character expression, silhouette, equipment,
+materials, elemental framing and pixel-art density. Canonical Flux2 data
+still overrides conflicting labels visible in that reference.
 
-New arachnoid champions occupy expansion slots only after the three body plans,
-names, lore, silhouettes, skeletons, movement clearance, trait budgets, and one
-complete kit are reviewed. No placeholder becomes selectable merely to fill a
-roster column.
+![FLUX Champions minimum character-art baseline](art/reference/flux-champions-style-baseline.png)
+
+Every roster entry therefore shows both the higher-detail character
+candidate and the current eight-direction runtime sprite. The runtime image
+is the one connected to the in-game atlas; the larger image is a visual
+review candidate. Neither is accepted final art until the runtime sprite
+matches or exceeds the baseline and passes the ordered visual-quality gate.
+
+![Current runtime-addressable champion sprite roster](assets/sprites/champions/roster_overview_v1.png)
+
+| Repository fact | Current meaning |
+| --- | --- |
+| Executable shared combat foundation | Arc Primary and Vector Lance exist, but they are not final per-champion kits |
+| Preserved named kits | Oh Tipi, S. Wayne, The Red Baron, Steezo, Treevor the Mason, Oll' I and Fluup retain approved ability names; mechanics remain unimplemented |
+| Remaining named champions | Identity, ancestry, elements, role and sprite package exist; character-specific ability names remain pending |
+| Void terminology | The Red Baron and Grimm Bow still carry legacy Void design data while visual generation currently uses Dark; this must be reconciled explicitly |
+| Angel slot | Body-plan and visual placeholder only; identity, lore and kit remain unapproved and non-selectable |
+
+### Character roster index
+
+| Sprite | Champion | Ancestry (race) | Size | Elements | Intended role | Kit state |
+| --- | --- | --- | --- | --- | --- | --- |
+| <img src="assets/sprites/champions_v2/oh_tipi/hero_portrait_256.png" alt="Oh Tipi high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/oh_tipi/oh_tipi_direction_preview.png" alt="Oh Tipi current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Oh Tipi** | Seakin | Medium | Water · Ice · Charge | Conductive-field skirmisher and current rider | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/s_wayne/hero_portrait_256.png" alt="S. Wayne high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/s_wayne/s_wayne_direction_preview.png" alt="S. Wayne current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **S. Wayne** | Hobbit | Small | Dark · Light | Eclipse-boundary tactician and decoy router | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/red_baron/hero_portrait_256.png" alt="The Red Baron high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/red_baron/red_baron_direction_preview.png" alt="The Red Baron current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **The Red Baron** | Undead | Medium | Void (legacy, unresolved) · Fire · Ice | Airborne formation controller with punishable landings | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/steezo/hero_portrait_256.png" alt="Steezo high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/steezo/steezo_direction_preview.png" alt="Steezo current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Steezo** | Goblin | Small | Fire · Charge · Light | Volatile construct engineer and detonation sequencer | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/treevor_mason/hero_portrait_256.png" alt="Treevor the Mason high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/treevor_mason/treevor_mason_direction_preview.png" alt="Treevor the Mason current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Treevor the Mason** | Treefolk | Large | Earth · Wind · Fire | Terrain mason creating routes, cover and fire liabilities | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/oll_i/hero_portrait_256.png" alt="Oll' I high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/oll_i/oll_i_direction_preview.png" alt="Oll' I current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Oll' I** | Werewolf | Large | Earth · Fire · Light | Forward structural breaker with high commitment | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/fluup/hero_portrait_256.png" alt="Fluup high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/fluup/fluup_direction_preview.png" alt="Fluup current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Fluup** | Orc | Large | Charge · Wind · Ice | Storm bruiser converting committed landings | Named design kit; not implemented |
+| <img src="assets/sprites/champions_v2/wa_bidi/hero_portrait_256.png" alt="Wa Bidi high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/wa_bidi/wa_bidi_direction_preview.png" alt="Wa Bidi current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Wa Bidi** | Goblin | Small | Charge · Wind · Fire | Fast battlecry route specialist with visible and audible cues | Kit pending |
+| <img src="assets/sprites/champions_v2/grace_reava/hero_portrait_256.png" alt="Grace Reava high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/grace_reava/grace_reava_direction_preview.png" alt="Grace Reava current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Grace Reava** | Sylph | Small | Wind · Water · Light | Luminous-current aerial duelist | Kit pending |
+| <img src="assets/sprites/champions_v2/nico_lai/hero_portrait_256.png" alt="Nico Lai high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/nico_lai/nico_lai_direction_preview.png" alt="Nico Lai current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Nico Lai** | Gnome | Tiny | Charge · Light | Precision shared-device engineer | Kit pending |
+| <img src="assets/sprites/champions_v2/spai_si/hero_portrait_256.png" alt="Spai Si high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/spai_si/spai_si_direction_preview.png" alt="Spai Si current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Spai Si** | Demon | Medium | Wind · Light · Earth | Redirect duelist converting hostile intent into angles | Kit pending |
+| <img src="assets/sprites/champions_v2/leaf_hidden/hero_portrait_256.png" alt="Leaf the Hidden high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/leaf_hidden/leaf_hidden_direction_preview.png" alt="Leaf the Hidden current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Leaf the Hidden** | Treefolk | Medium | Water · Earth · Light | Concealed grove support and planned-route grower | Kit pending |
+| <img src="assets/sprites/champions_v2/ha_rekt/hero_portrait_256.png" alt="Ha Rekt high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/ha_rekt/ha_rekt_direction_preview.png" alt="Ha Rekt current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Ha Rekt** | Wyrmborn | Large | Ice · Wind · Fire | Aerial cold-line hunter with marked escape routes | Kit pending |
+| <img src="assets/sprites/champions_v2/dr_apex/hero_portrait_256.png" alt="Dr. Apex high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/dr_apex/dr_apex_direction_preview.png" alt="Dr. Apex current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Dr. Apex** | Stoneborn | Large | Earth · Light · Water | Armored combat medic with contestable support zones | Kit pending |
+| <img src="assets/sprites/champions_v2/haara/hero_portrait_256.png" alt="Haara high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/haara/haara_direction_preview.png" alt="Haara current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Haara** | Nymph | Small | Light · Wind · Spirit | Bloom planner with flexible resource routing | Kit pending |
+| <img src="assets/sprites/champions_v2/hesus_christo/hero_portrait_256.png" alt="Hesus Christo high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/hesus_christo/hesus_christo_direction_preview.png" alt="Hesus Christo current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Hesus Christo** | Elf | Medium | Earth · Water | Tall renewal vanguard rebuilding broken routes | Kit pending |
+| <img src="assets/sprites/champions_v2/grimm_bow/hero_portrait_256.png" alt="Grimm Bow high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/grimm_bow/grimm_bow_direction_preview.png" alt="Grimm Bow current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Grimm Bow** | Troll | Huge | Void (legacy, unresolved) · Earth · Water | Terrain archer converting displacement into precision, never bonus damage | Kit pending |
+| <img src="assets/sprites/champions_v2/biggy_bob/hero_portrait_256.png" alt="Biggy Bob high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/biggy_bob/biggy_bob_direction_preview.png" alt="Biggy Bob current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Biggy Bob** | Dwarf | Medium | Earth · Fire · Light | Forge-line breacher and masonry specialist | Kit pending |
+| <img src="assets/sprites/champions_v2/jan_wicked/hero_portrait_256.png" alt="Jan Wicked high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/jan_wicked/jan_wicked_direction_preview.png" alt="Jan Wicked current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Jan Wicked** | Human | Medium | Ice · Dark · Charge | Black-ice circuit hunter | Kit pending |
+| <img src="assets/sprites/champions_v2/ba_djoh/hero_portrait_256.png" alt="Ba Djoh high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/ba_djoh/ba_djoh_direction_preview.png" alt="Ba Djoh current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Ba Djoh** | Minotaur | Huge | Earth · Fire · Water | Three-current charge breaker | Kit pending |
+| <img src="assets/sprites/champions_v2/urzh/hero_portrait_256.png" alt="Urzh high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/urzh/urzh_direction_preview.png" alt="Urzh current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Urzh** | Stoneborn | Large | Earth · Fire · Charge | Conductive kiln bulwark and lane anchor | Kit pending |
+| <img src="assets/sprites/champions_v2/donnok/hero_portrait_256.png" alt="Donnok high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/donnok/donnok_direction_preview.png" alt="Donnok current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Donnok** | Dwarf | Medium | Earth · Fire · Water | Forge-rhythm terrain shaper | Kit pending |
+| <img src="assets/sprites/champions_v2/djonah_thaan/hero_portrait_256.png" alt="Djonah Thaan high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/djonah_thaan/djonah_thaan_direction_preview.png" alt="Djonah Thaan current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Djonah Thaan** | Vampire | Medium | Dark · Charge · Fire | Grave-current pursuit controller | Kit pending |
+| <img src="assets/sprites/champions_v2/unnamed_angel/hero_portrait_256.png" alt="Unnamed Angel high-detail character candidate" width="128"><br><sub>detail candidate</sub><br><img src="assets/sprites/champions/unnamed_angel/unnamed_angel_direction_preview.png" alt="Unnamed Angel current in-game directional sprite" width="192"><br><sub>current runtime sprite</sub> | **Unnamed Angel** | Angel | Medium | Wind · Light · Spirit | Visual and body-plan placeholder only | Unapproved placeholder |
+
+### Detailed character cards
+
+<details id="champion-oh_tipi">
+<summary><strong>Oh Tipi</strong> — Seakin · Water · Ice · Charge</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/oh_tipi/hero_portrait_256.png" alt="Oh Tipi high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/oh_tipi/oh_tipi_direction_preview.png" alt="Oh Tipi current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Seakin** |
+| Visual size class | **Medium** |
+| Draft affinities | **Water · Ice · Charge** |
+| Signature equipment | **Conduit** |
+| Core gameplay identity | Conductive-field skirmisher and current rider |
+| Identity and migration notes | Large head fins and a route-first silhouette distinguish water setup, freezing and current traversal. |
+| Runtime atlas | [`assets/sprites/champions/oh_tipi/oh_tipi_atlas.png`](assets/sprites/champions/oh_tipi/oh_tipi_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/oh_tipi/oh_tipi_portrait.png`](assets/sprites/champions/oh_tipi/oh_tipi_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/oh_tipi/hero_portrait_256.png`](assets/sprites/champions_v2/oh_tipi/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/oh_tipi/keyframe_board.png`](assets/sprites/champions_v2/oh_tipi/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Living Current** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Tideline** | Named design input; simulation and balance not implemented |
+| Active II | **Flash Freeze** | Named design input; simulation and balance not implemented |
+| Mobility | **Eel Step** | Named design input; must obey global collision and speed limits |
+| Ultimate | **Stormtide Basin** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-s_wayne">
+<summary><strong>S. Wayne</strong> — Hobbit · Dark · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/s_wayne/hero_portrait_256.png" alt="S. Wayne high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/s_wayne/s_wayne_direction_preview.png" alt="S. Wayne current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Hobbit** |
+| Visual size class | **Small** |
+| Draft affinities | **Dark · Light** |
+| Signature equipment | **Eclipse disc** |
+| Core gameplay identity | Eclipse-boundary tactician and decoy router |
+| Identity and migration notes | The preserved kit names were authored under the legacy name Samwise DeWayne and require identity/affinity reconciliation before promotion. |
+| Runtime atlas | [`assets/sprites/champions/s_wayne/s_wayne_atlas.png`](assets/sprites/champions/s_wayne/s_wayne_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/s_wayne/s_wayne_portrait.png`](assets/sprites/champions/s_wayne/s_wayne_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/s_wayne/hero_portrait_256.png`](assets/sprites/champions_v2/s_wayne/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/s_wayne/keyframe_board.png`](assets/sprites/champions_v2/s_wayne/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Small Target, Big Exit** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Pocket Tempest** | Named design input; simulation and balance not implemented |
+| Active II | **Burrowed Shadow** | Named design input; simulation and balance not implemented |
+| Mobility | **Campfire Feint** | Named design input; must obey global collision and speed limits |
+| Ultimate | **There and Back Again** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-red_baron">
+<summary><strong>The Red Baron</strong> — Undead · Void (legacy, unresolved) · Fire · Ice</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/red_baron/hero_portrait_256.png" alt="The Red Baron high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/red_baron/red_baron_direction_preview.png" alt="The Red Baron current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Undead** |
+| Visual size class | **Medium** |
+| Draft affinities | **Void (legacy, unresolved) · Fire · Ice** |
+| Signature equipment | **Sabre** |
+| Core gameplay identity | Airborne formation controller with punishable landings |
+| Identity and migration notes | The visual catalog currently tags Dark, while the design roster still says Void. Selection remains blocked until that mapping is approved. |
+| Runtime atlas | [`assets/sprites/champions/red_baron/red_baron_atlas.png`](assets/sprites/champions/red_baron/red_baron_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/red_baron/red_baron_portrait.png`](assets/sprites/champions/red_baron/red_baron_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/red_baron/hero_portrait_256.png`](assets/sprites/champions_v2/red_baron/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/red_baron/keyframe_board.png`](assets/sprites/champions_v2/red_baron/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Cold Ashes** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Crimson Comet** | Named design input; simulation and balance not implemented |
+| Active II | **Night Flak** | Named design input; simulation and balance not implemented |
+| Mobility | **Rime Wing** | Named design input; must obey global collision and speed limits |
+| Ultimate | **The Dead Sky** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-steezo">
+<summary><strong>Steezo</strong> — Goblin · Fire · Charge · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/steezo/hero_portrait_256.png" alt="Steezo high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/steezo/steezo_direction_preview.png" alt="Steezo current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Goblin** |
+| Visual size class | **Small** |
+| Draft affinities | **Fire · Charge · Light** |
+| Signature equipment | **Detonator** |
+| Core gameplay identity | Volatile construct engineer and detonation sequencer |
+| Identity and migration notes | Red skin, tool-led silhouette and readable devices are identity requirements rather than optional cosmetics. |
+| Runtime atlas | [`assets/sprites/champions/steezo/steezo_atlas.png`](assets/sprites/champions/steezo/steezo_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/steezo/steezo_portrait.png`](assets/sprites/champions/steezo/steezo_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/steezo/hero_portrait_256.png`](assets/sprites/champions_v2/steezo/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/steezo/keyframe_board.png`](assets/sprites/champions_v2/steezo/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Questionable Engineering** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Spark Keg** | Named design input; simulation and balance not implemented |
+| Active II | **Prism Tripwire** | Named design input; simulation and balance not implemented |
+| Mobility | **Coil Hopper** | Named design input; must obey global collision and speed limits |
+| Ultimate | **Perfectly Safe Machine** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-treevor_mason">
+<summary><strong>Treevor the Mason</strong> — Treefolk · Earth · Wind · Fire</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/treevor_mason/hero_portrait_256.png" alt="Treevor the Mason high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/treevor_mason/treevor_mason_direction_preview.png" alt="Treevor the Mason current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Treefolk** |
+| Visual size class | **Large** |
+| Draft affinities | **Earth · Wind · Fire** |
+| Signature equipment | **Mason hammer** |
+| Core gameplay identity | Terrain mason creating routes, cover and fire liabilities |
+| Identity and migration notes | Canopy, roots and masonry equipment must remain readable independently of elemental effects. |
+| Runtime atlas | [`assets/sprites/champions/treevor_mason/treevor_mason_atlas.png`](assets/sprites/champions/treevor_mason/treevor_mason_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/treevor_mason/treevor_mason_portrait.png`](assets/sprites/champions/treevor_mason/treevor_mason_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/treevor_mason/hero_portrait_256.png`](assets/sprites/champions_v2/treevor_mason/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/treevor_mason/keyframe_board.png`](assets/sprites/champions_v2/treevor_mason/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Deep Roots** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Root Rampart** | Named design input; simulation and balance not implemented |
+| Active II | **Branch Gale** | Named design input; simulation and balance not implemented |
+| Mobility | **Ember Seed** | Named design input; must obey global collision and speed limits |
+| Ultimate | **Crown of the Wildfire** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-oll_i">
+<summary><strong>Oll' I</strong> — Werewolf · Earth · Fire · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/oll_i/hero_portrait_256.png" alt="Oll' I high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/oll_i/oll_i_direction_preview.png" alt="Oll' I current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Werewolf** |
+| Visual size class | **Large** |
+| Draft affinities | **Earth · Fire · Light** |
+| Signature equipment | **Impact gauntlets** |
+| Core gameplay identity | Forward structural breaker with high commitment |
+| Identity and migration notes | Current Flux2 ancestry is Werewolf; older Minotaur imagery is migration reference, not current repository truth. |
+| Runtime atlas | [`assets/sprites/champions/oll_i/oll_i_atlas.png`](assets/sprites/champions/oll_i/oll_i_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/oll_i/oll_i_portrait.png`](assets/sprites/champions/oll_i/oll_i_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/oll_i/hero_portrait_256.png`](assets/sprites/champions_v2/oll_i/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/oll_i/keyframe_board.png`](assets/sprites/champions_v2/oll_i/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Labyrinth Momentum** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Sunhorn Charge** | Named design input; simulation and balance not implemented |
+| Active II | **Furnace Stomp** | Named design input; simulation and balance not implemented |
+| Mobility | **Mirror Bulwark** | Named design input; must obey global collision and speed limits |
+| Ultimate | **The Burning Maze** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-fluup">
+<summary><strong>Fluup</strong> — Orc · Charge · Wind · Ice</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/fluup/hero_portrait_256.png" alt="Fluup high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/fluup/fluup_direction_preview.png" alt="Fluup current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Orc** |
+| Visual size class | **Large** |
+| Draft affinities | **Charge · Wind · Ice** |
+| Signature equipment | **Storm maul** |
+| Core gameplay identity | Storm bruiser converting committed landings |
+| Identity and migration notes | Heavy action timing and storm effects must preserve the underlying Orc silhouette and recovery read. |
+| Runtime atlas | [`assets/sprites/champions/fluup/fluup_atlas.png`](assets/sprites/champions/fluup/fluup_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/fluup/fluup_portrait.png`](assets/sprites/champions/fluup/fluup_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/fluup/hero_portrait_256.png`](assets/sprites/champions_v2/fluup/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/fluup/keyframe_board.png`](assets/sprites/champions_v2/fluup/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Preserved design name | Implementation state |
+| --- | --- | --- |
+| Passive | **Stormweight** | Named design input; simulation and balance not implemented |
+| Champion primary | Not committed | Current Arc Primary is a shared foundation placeholder, not the final champion primary |
+| Active I | **Thunder Shove** | Named design input; simulation and balance not implemented |
+| Active II | **Squall Leap** | Named design input; simulation and balance not implemented |
+| Mobility | **Rime Crash** | Named design input; must obey global collision and speed limits |
+| Ultimate | **Bad Weather** | Named design input; charge, startup, interruption and recovery rules pending |
+
+</details>
+
+<details id="champion-wa_bidi">
+<summary><strong>Wa Bidi</strong> — Goblin · Charge · Wind · Fire</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/wa_bidi/hero_portrait_256.png" alt="Wa Bidi high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/wa_bidi/wa_bidi_direction_preview.png" alt="Wa Bidi current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Goblin** |
+| Visual size class | **Small** |
+| Draft affinities | **Charge · Wind · Fire** |
+| Signature equipment | **Battle horn** |
+| Core gameplay identity | Fast battlecry route specialist with visible and audible cues |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/wa_bidi/wa_bidi_atlas.png`](assets/sprites/champions/wa_bidi/wa_bidi_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/wa_bidi/wa_bidi_portrait.png`](assets/sprites/champions/wa_bidi/wa_bidi_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/wa_bidi/hero_portrait_256.png`](assets/sprites/champions_v2/wa_bidi/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/wa_bidi/keyframe_board.png`](assets/sprites/champions_v2/wa_bidi/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-grace_reava">
+<summary><strong>Grace Reava</strong> — Sylph · Wind · Water · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/grace_reava/hero_portrait_256.png" alt="Grace Reava high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/grace_reava/grace_reava_direction_preview.png" alt="Grace Reava current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Sylph** |
+| Visual size class | **Small** |
+| Draft affinities | **Wind · Water · Light** |
+| Signature equipment | **Rapier** |
+| Core gameplay identity | Luminous-current aerial duelist |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/grace_reava/grace_reava_atlas.png`](assets/sprites/champions/grace_reava/grace_reava_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/grace_reava/grace_reava_portrait.png`](assets/sprites/champions/grace_reava/grace_reava_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/grace_reava/hero_portrait_256.png`](assets/sprites/champions_v2/grace_reava/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/grace_reava/keyframe_board.png`](assets/sprites/champions_v2/grace_reava/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-nico_lai">
+<summary><strong>Nico Lai</strong> — Gnome · Charge · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/nico_lai/hero_portrait_256.png" alt="Nico Lai high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/nico_lai/nico_lai_direction_preview.png" alt="Nico Lai current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Gnome** |
+| Visual size class | **Tiny** |
+| Draft affinities | **Charge · Light** |
+| Signature equipment | **Charge gauntlet** |
+| Core gameplay identity | Precision shared-device engineer |
+| Identity and migration notes | Bald crown, strong swept side-hair silhouette and oversized engineering equipment are required identity anchors. |
+| Runtime atlas | [`assets/sprites/champions/nico_lai/nico_lai_atlas.png`](assets/sprites/champions/nico_lai/nico_lai_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/nico_lai/nico_lai_portrait.png`](assets/sprites/champions/nico_lai/nico_lai_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/nico_lai/hero_portrait_256.png`](assets/sprites/champions_v2/nico_lai/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/nico_lai/keyframe_board.png`](assets/sprites/champions_v2/nico_lai/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-spai_si">
+<summary><strong>Spai Si</strong> — Demon · Wind · Light · Earth</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/spai_si/hero_portrait_256.png" alt="Spai Si high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/spai_si/spai_si_direction_preview.png" alt="Spai Si current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Demon** |
+| Visual size class | **Medium** |
+| Draft affinities | **Wind · Light · Earth** |
+| Signature equipment | **Redirect blade** |
+| Core gameplay identity | Redirect duelist converting hostile intent into angles |
+| Identity and migration notes | Current design is male with short dark hair; no approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/spai_si/spai_si_atlas.png`](assets/sprites/champions/spai_si/spai_si_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/spai_si/spai_si_portrait.png`](assets/sprites/champions/spai_si/spai_si_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/spai_si/hero_portrait_256.png`](assets/sprites/champions_v2/spai_si/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/spai_si/keyframe_board.png`](assets/sprites/champions_v2/spai_si/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-leaf_hidden">
+<summary><strong>Leaf the Hidden</strong> — Treefolk · Water · Earth · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/leaf_hidden/hero_portrait_256.png" alt="Leaf the Hidden high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/leaf_hidden/leaf_hidden_direction_preview.png" alt="Leaf the Hidden current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Treefolk** |
+| Visual size class | **Medium** |
+| Draft affinities | **Water · Earth · Light** |
+| Signature equipment | **Grove staff** |
+| Core gameplay identity | Concealed grove support and planned-route grower |
+| Identity and migration notes | Legacy art may label this design Hidin Leef; Flux2 uses Leaf the Hidden. |
+| Runtime atlas | [`assets/sprites/champions/leaf_hidden/leaf_hidden_atlas.png`](assets/sprites/champions/leaf_hidden/leaf_hidden_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/leaf_hidden/leaf_hidden_portrait.png`](assets/sprites/champions/leaf_hidden/leaf_hidden_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/leaf_hidden/hero_portrait_256.png`](assets/sprites/champions_v2/leaf_hidden/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/leaf_hidden/keyframe_board.png`](assets/sprites/champions_v2/leaf_hidden/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-ha_rekt">
+<summary><strong>Ha Rekt</strong> — Wyrmborn · Ice · Wind · Fire</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/ha_rekt/hero_portrait_256.png" alt="Ha Rekt high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/ha_rekt/ha_rekt_direction_preview.png" alt="Ha Rekt current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Wyrmborn** |
+| Visual size class | **Large** |
+| Draft affinities | **Ice · Wind · Fire** |
+| Signature equipment | **Cold lance** |
+| Core gameplay identity | Aerial cold-line hunter with marked escape routes |
+| Identity and migration notes | Wyrmborn is an anthropomorphic scaled body plan, not a conventional quadrupedal wyrm. |
+| Runtime atlas | [`assets/sprites/champions/ha_rekt/ha_rekt_atlas.png`](assets/sprites/champions/ha_rekt/ha_rekt_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/ha_rekt/ha_rekt_portrait.png`](assets/sprites/champions/ha_rekt/ha_rekt_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/ha_rekt/hero_portrait_256.png`](assets/sprites/champions_v2/ha_rekt/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/ha_rekt/keyframe_board.png`](assets/sprites/champions_v2/ha_rekt/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-dr_apex">
+<summary><strong>Dr. Apex</strong> — Stoneborn · Earth · Light · Water</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/dr_apex/hero_portrait_256.png" alt="Dr. Apex high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/dr_apex/dr_apex_direction_preview.png" alt="Dr. Apex current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Stoneborn** |
+| Visual size class | **Large** |
+| Draft affinities | **Earth · Light · Water** |
+| Signature equipment | **Medic prism** |
+| Core gameplay identity | Armored combat medic with contestable support zones |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/dr_apex/dr_apex_atlas.png`](assets/sprites/champions/dr_apex/dr_apex_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/dr_apex/dr_apex_portrait.png`](assets/sprites/champions/dr_apex/dr_apex_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/dr_apex/hero_portrait_256.png`](assets/sprites/champions_v2/dr_apex/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/dr_apex/keyframe_board.png`](assets/sprites/champions_v2/dr_apex/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-haara">
+<summary><strong>Haara</strong> — Nymph · Light · Wind · Spirit</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/haara/hero_portrait_256.png" alt="Haara high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/haara/haara_direction_preview.png" alt="Haara current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Nymph** |
+| Visual size class | **Small** |
+| Draft affinities | **Light · Wind · Spirit** |
+| Signature equipment | **Bloom orb** |
+| Core gameplay identity | Bloom planner with flexible resource routing |
+| Identity and migration notes | Short dark hair is the current identity direction. Spirit remains runtime gated. |
+| Runtime atlas | [`assets/sprites/champions/haara/haara_atlas.png`](assets/sprites/champions/haara/haara_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/haara/haara_portrait.png`](assets/sprites/champions/haara/haara_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/haara/hero_portrait_256.png`](assets/sprites/champions_v2/haara/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/haara/keyframe_board.png`](assets/sprites/champions_v2/haara/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-hesus_christo">
+<summary><strong>Hesus Christo</strong> — Elf · Earth · Water</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/hesus_christo/hero_portrait_256.png" alt="Hesus Christo high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/hesus_christo/hesus_christo_direction_preview.png" alt="Hesus Christo current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Elf** |
+| Visual size class | **Medium** |
+| Draft affinities | **Earth · Water** |
+| Signature equipment | **Renewal staff** |
+| Core gameplay identity | Tall renewal vanguard rebuilding broken routes |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/hesus_christo/hesus_christo_atlas.png`](assets/sprites/champions/hesus_christo/hesus_christo_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/hesus_christo/hesus_christo_portrait.png`](assets/sprites/champions/hesus_christo/hesus_christo_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/hesus_christo/hero_portrait_256.png`](assets/sprites/champions_v2/hesus_christo/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/hesus_christo/keyframe_board.png`](assets/sprites/champions_v2/hesus_christo/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-grimm_bow">
+<summary><strong>Grimm Bow</strong> — Troll · Void (legacy, unresolved) · Earth · Water</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/grimm_bow/hero_portrait_256.png" alt="Grimm Bow high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/grimm_bow/grimm_bow_direction_preview.png" alt="Grimm Bow current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Troll** |
+| Visual size class | **Huge** |
+| Draft affinities | **Void (legacy, unresolved) · Earth · Water** |
+| Signature equipment | **Greatbow** |
+| Core gameplay identity | Terrain archer converting displacement into precision, never bonus damage |
+| Identity and migration notes | The visual catalog currently tags Dark, while the design roster still says Void. Selection remains blocked until that mapping is approved. |
+| Runtime atlas | [`assets/sprites/champions/grimm_bow/grimm_bow_atlas.png`](assets/sprites/champions/grimm_bow/grimm_bow_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/grimm_bow/grimm_bow_portrait.png`](assets/sprites/champions/grimm_bow/grimm_bow_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/grimm_bow/hero_portrait_256.png`](assets/sprites/champions_v2/grimm_bow/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/grimm_bow/keyframe_board.png`](assets/sprites/champions_v2/grimm_bow/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-biggy_bob">
+<summary><strong>Biggy Bob</strong> — Dwarf · Earth · Fire · Light</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/biggy_bob/hero_portrait_256.png" alt="Biggy Bob high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/biggy_bob/biggy_bob_direction_preview.png" alt="Biggy Bob current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Dwarf** |
+| Visual size class | **Medium** |
+| Draft affinities | **Earth · Fire · Light** |
+| Signature equipment | **Breach hammer** |
+| Core gameplay identity | Forge-line breacher and masonry specialist |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/biggy_bob/biggy_bob_atlas.png`](assets/sprites/champions/biggy_bob/biggy_bob_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/biggy_bob/biggy_bob_portrait.png`](assets/sprites/champions/biggy_bob/biggy_bob_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/biggy_bob/hero_portrait_256.png`](assets/sprites/champions_v2/biggy_bob/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/biggy_bob/keyframe_board.png`](assets/sprites/champions_v2/biggy_bob/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-jan_wicked">
+<summary><strong>Jan Wicked</strong> — Human · Ice · Dark · Charge</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/jan_wicked/hero_portrait_256.png" alt="Jan Wicked high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/jan_wicked/jan_wicked_direction_preview.png" alt="Jan Wicked current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Human** |
+| Visual size class | **Medium** |
+| Draft affinities | **Ice · Dark · Charge** |
+| Signature equipment | **Ice blade** |
+| Core gameplay identity | Black-ice circuit hunter |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/jan_wicked/jan_wicked_atlas.png`](assets/sprites/champions/jan_wicked/jan_wicked_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/jan_wicked/jan_wicked_portrait.png`](assets/sprites/champions/jan_wicked/jan_wicked_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/jan_wicked/hero_portrait_256.png`](assets/sprites/champions_v2/jan_wicked/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/jan_wicked/keyframe_board.png`](assets/sprites/champions_v2/jan_wicked/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-ba_djoh">
+<summary><strong>Ba Djoh</strong> — Minotaur · Earth · Fire · Water</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/ba_djoh/hero_portrait_256.png" alt="Ba Djoh high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/ba_djoh/ba_djoh_direction_preview.png" alt="Ba Djoh current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Minotaur** |
+| Visual size class | **Huge** |
+| Draft affinities | **Earth · Fire · Water** |
+| Signature equipment | **Breaker** |
+| Core gameplay identity | Three-current charge breaker |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/ba_djoh/ba_djoh_atlas.png`](assets/sprites/champions/ba_djoh/ba_djoh_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/ba_djoh/ba_djoh_portrait.png`](assets/sprites/champions/ba_djoh/ba_djoh_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/ba_djoh/hero_portrait_256.png`](assets/sprites/champions_v2/ba_djoh/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/ba_djoh/keyframe_board.png`](assets/sprites/champions_v2/ba_djoh/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-urzh">
+<summary><strong>Urzh</strong> — Stoneborn · Earth · Fire · Charge</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/urzh/hero_portrait_256.png" alt="Urzh high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/urzh/urzh_direction_preview.png" alt="Urzh current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Stoneborn** |
+| Visual size class | **Large** |
+| Draft affinities | **Earth · Fire · Charge** |
+| Signature equipment | **Kiln shield** |
+| Core gameplay identity | Conductive kiln bulwark and lane anchor |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/urzh/urzh_atlas.png`](assets/sprites/champions/urzh/urzh_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/urzh/urzh_portrait.png`](assets/sprites/champions/urzh/urzh_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/urzh/hero_portrait_256.png`](assets/sprites/champions_v2/urzh/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/urzh/keyframe_board.png`](assets/sprites/champions_v2/urzh/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-donnok">
+<summary><strong>Donnok</strong> — Dwarf · Earth · Fire · Water</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/donnok/hero_portrait_256.png" alt="Donnok high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/donnok/donnok_direction_preview.png" alt="Donnok current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Dwarf** |
+| Visual size class | **Medium** |
+| Draft affinities | **Earth · Fire · Water** |
+| Signature equipment | **Terrain hammer** |
+| Core gameplay identity | Forge-rhythm terrain shaper |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/donnok/donnok_atlas.png`](assets/sprites/champions/donnok/donnok_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/donnok/donnok_portrait.png`](assets/sprites/champions/donnok/donnok_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/donnok/hero_portrait_256.png`](assets/sprites/champions_v2/donnok/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/donnok/keyframe_board.png`](assets/sprites/champions_v2/donnok/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-djonah_thaan">
+<summary><strong>Djonah Thaan</strong> — Vampire · Dark · Charge · Fire</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/djonah_thaan/hero_portrait_256.png" alt="Djonah Thaan high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/djonah_thaan/djonah_thaan_direction_preview.png" alt="Djonah Thaan current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Vampire** |
+| Visual size class | **Medium** |
+| Draft affinities | **Dark · Charge · Fire** |
+| Signature equipment | **Grave coil** |
+| Core gameplay identity | Grave-current pursuit controller |
+| Identity and migration notes | No approved character-specific ability names are committed yet. |
+| Runtime atlas | [`assets/sprites/champions/djonah_thaan/djonah_thaan_atlas.png`](assets/sprites/champions/djonah_thaan/djonah_thaan_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/djonah_thaan/djonah_thaan_portrait.png`](assets/sprites/champions/djonah_thaan/djonah_thaan_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/djonah_thaan/hero_portrait_256.png`](assets/sprites/champions_v2/djonah_thaan/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/djonah_thaan/keyframe_board.png`](assets/sprites/champions_v2/djonah_thaan/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive | Pending champion promotion; no approved name or mechanic is committed |
+| Champion primary | Pending; Arc Primary remains the shared executable foundation |
+| Active I / Active II | Pending; intended role is recorded above, but a kit is not invented by this README |
+| Mobility | Pending; must use the universal collision, Stamina/Flux and speed-ceiling contracts |
+| Ultimate | Pending; requires charge, startup, counterplay, interruption, expiry and recovery definitions |
+
+</details>
+
+<details id="champion-unnamed_angel">
+<summary><strong>Unnamed Angel</strong> — Angel · Wind · Light · Spirit</summary>
+
+<table>
+<tr>
+<td align="center"><img src="assets/sprites/champions_v2/unnamed_angel/hero_portrait_256.png" alt="Unnamed Angel high-detail character candidate" width="256"></td>
+<td align="center"><img src="assets/sprites/champions/unnamed_angel/unnamed_angel_direction_preview.png" alt="Unnamed Angel current eight-direction in-game sprite" width="512"></td>
+</tr>
+<tr>
+<td align="center"><strong>Character-detail candidate</strong><br>expression, materials, equipment and elemental identity</td>
+<td align="center"><strong>Current runtime sprite</strong><br>eight directions linked to the in-game atlas</td>
+</tr>
+</table>
+
+| Field | Repository state |
+| --- | --- |
+| Ancestry / legacy race | **Angel** |
+| Visual size class | **Medium** |
+| Draft affinities | **Wind · Light · Spirit** |
+| Signature equipment | **Placeholder orb** |
+| Core gameplay identity | Visual and body-plan placeholder only |
+| Identity and migration notes | Identity, lore, kit and selection status are unapproved. This slot must not become playable merely to fill the roster. |
+| Runtime atlas | [`assets/sprites/champions/unnamed_angel/unnamed_angel_atlas.png`](assets/sprites/champions/unnamed_angel/unnamed_angel_atlas.png) |
+| Runtime portrait candidate | [`assets/sprites/champions/unnamed_angel/unnamed_angel_portrait.png`](assets/sprites/champions/unnamed_angel/unnamed_angel_portrait.png) |
+| High-detail portrait candidate | [`assets/sprites/champions_v2/unnamed_angel/hero_portrait_256.png`](assets/sprites/champions_v2/unnamed_angel/hero_portrait_256.png) |
+| Animation/keyframe board | [`assets/sprites/champions_v2/unnamed_angel/keyframe_board.png`](assets/sprites/champions_v2/unnamed_angel/keyframe_board.png) |
+| Visual acceptance target | Must match or exceed [`art/reference/flux-champions-style-baseline.png`](art/reference/flux-champions-style-baseline.png) in expression, silhouette, material detail and charm |
+| Sprite status | Runtime-addressable integrated candidate; not final accepted art and not proof of playability |
+
+| Ability slot | Status |
+| --- | --- |
+| Passive, primary, actives, mobility and ultimate | **Unapproved placeholder.** No names or mechanics may be inferred from the temporary artwork. |
+
+</details>
+
+New arachnoid champions occupy expansion slots only after the body plans,
+names, lore, silhouettes, skeletons, movement clearance, trait budgets and
+one complete kit are reviewed. No placeholder becomes selectable merely to
+fill a roster column.
+
+<!-- END CHARACTER_ROSTER_V1 -->
 
 ### Champion promotion pipeline
 
@@ -631,7 +1598,7 @@ combat, chemistry, or champion implementations.
 Hosted Sanctum presence, joining, and lobby administration are application
 infrastructure and therefore precede these gameplay modes. PvP, PvE, PvPvE,
 roguelike, stronghold, battle-royale, and custom mode claims begin only after
-Living Sanctum V1 passes its full foundation and two-platform acceptance matrix.
+Living Wellspring V1 passes its full foundation and two-platform acceptance matrix.
 
 | Family | Planned first expression | Production gate |
 | --- | --- | --- |
@@ -825,7 +1792,7 @@ look complete.
 
 - [Production specification](SPECIFICATION.md)
 - [Sanctum hub and fast-travel contract](docs/SANCTUM-HUB.md)
-- [Living Sanctum V1 acceptance contract](docs/SANCTUM-V1-ACCEPTANCE.md)
+- [Living Wellspring V1 acceptance contract](docs/SANCTUM-V1-ACCEPTANCE.md)
 - [Visual direction](docs/VISUAL-DIRECTION.md)
 - [Reactive pixel-material and chemistry system](docs/reactive-material-system.md)
 - [Material registry/grid foundation](docs/MATERIAL-GRID-FOUNDATION.md)
@@ -835,3 +1802,19 @@ look complete.
 - [Gate-ordered overhaul implementation plan](docs/OVERHAUL-PLAN.md)
 - [Development and offline setup](docs/DEVELOPMENT.md)
 - [Character and skeleton reference](reference/character-sprites/README.md)
+
+<!-- BEGIN WELLSPRING_VISUAL_V2 -->
+## Wellspring visual-production v2
+
+| Asset family | Complete |
+| --- | ---: |
+| Race foundations: 21 races × 5 sizes × 2 presentations | 210 |
+| Complete race exemplars | 21 |
+| Complete champion visual packages | 24 |
+| Wellspring district packages | 9 |
+| Enabled element VFX families | 8 |
+| Material/state cells | 132 |
+| Prop/state cells | 220 |
+
+See [the complete tabular visual catalog](docs/WELLSPRING-VISUAL-PRODUCTION.md).
+<!-- END WELLSPRING_VISUAL_V2 -->
